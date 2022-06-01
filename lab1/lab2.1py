@@ -1,0 +1,20 @@
+"""Створити текстовий файл. Сформувати новий текстовий файл, що
+складається з рядків вихідного файлу, у яких вилучені всі двосимвольні слова.
+Визначити і дописати в кінець нового файлу кількість вилучених слів.
+Вивести вміст вихідного і створеного файлів."""
+from text import create_first, create_second, read_file
+
+
+def main():
+    path1 = "First.txt"
+    path2 = "Second.txt"
+    create_first(path1)
+    create_second(path1, path2)
+    print("First file:")
+    read_file(path1)
+    print("Second file:")
+    read_file(path2)
+
+
+if __name__ == "__main__":
+    main()
