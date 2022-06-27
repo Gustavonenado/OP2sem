@@ -1,0 +1,21 @@
+Entered expression:
+( ( 2 + ( ( 2 + 3 ) * 4 ) ) - ( 5 * ( 4 - 6 ) ) )
+
+Built tree-expression:
+
+			  6
+		  -
+			  4
+	  *
+		  5
+  -
+			  4
+		  *
+				  3
+			  +
+				  2
+	  +
+		  2
+
+
+Result of calculating the expression: 32
